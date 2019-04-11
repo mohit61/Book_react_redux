@@ -13,7 +13,7 @@ class BookDetails extends Component{
 
     return(
       <div>
-        <h3>Details for:</h3>
+        <img src={this.props.book.img} height="230px" width="200px" />
         <div>Title: {this.props.book.title}</div>
         <div>Pages: {this.props.book.pages}</div>
       </div>
