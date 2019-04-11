@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
-import {selectBook} from '../actions/index';
+//import {selectBook} from '../actions/index';
+// agar export default krte ho to {selectBook} i.e. {} braces me likhne ki zaroorat nhi hai
+import selectBook from '../actions/index';
 import {bindActionCreators} from 'redux';
 
 class BookList extends Component{
