@@ -1,9 +1,25 @@
-export default function(){
+export default function() {
   return [
-    { title: 'The Intelligent Investor', pages: 225},
-    { title: 'Five Point Someone', pages: 69},
-    { title: 'Action Great', pages: 100},
-    { title: 'Chetan Bhagat', pages: 99},
-    { title: 'MK Gandhi', pages:500}
+    {
+      img: "../../img/the_in.jpg",
+      title: "The Intelligent Investor",
+      pages: 255
+    },
+    {
+      img: "../../img/common.jpg",
+      title: "The Little Book of Common Sense Investing",
+      pages: 25
+    },
+    { img: "../../img/oneup.jpg", title: "One Up on Wall Street", pages: 89 },
+    {
+      img: "../../img/thinking.jpg",
+      title: "Thinking Fast and Slow",
+      pages: 15
+    },
+    {
+      img: "../../img/random.jpg",
+      title: "A Random Walk Down Wall Street",
+      pages: 45
+    }
   ];
 }
